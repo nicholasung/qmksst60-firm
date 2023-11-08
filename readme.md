@@ -1,3 +1,7 @@
+# Changes and Intent
+Intended for a fork of the sst60 I am working on with analog inputs. Currently only changes are removing all keyboards that are not the SST60
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
