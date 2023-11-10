@@ -1,22 +1,11 @@
 # MCU name
 MCU = RP2040
+BOOTLOADER = rp2040
+FIRMWARE_FORMAT = uf2
+# SRC += analog.c
 
-BOOTLOADER = rp2040ure (see library "Board Types" documentation).
-ARCH = AVR8
-
-# Input clock frequency.
-#     This will define a symbol, F_USB, in all source code files equal to the
-#     input clock frequency (before any prescaling is performed) in Hz. This value may
-#     differ from F_CPU if prescaling is used on the latter, and is required as the
-#     raw input clock is fed directly to the PLL sections of the AVR for high speed
-#     clock generation for the USB and other AVR subsections. Do NOT tack on a 'UL'
-#     at the end, this will be done automatically to create a 32-bit value in your
-#     source code.
-#
-#     If no clock division is performed on the input clock inside the AVR (via the
-#     CPU clock adjust registers or the clock division fuses), this will be equal to F_CPU.
-F_USB = $(F_CPU)
-
+#User Options
+LAYOUTS = default #its tsangan or ansi with split mods
 
 # Build Options
 #   comment out to disable the options.
